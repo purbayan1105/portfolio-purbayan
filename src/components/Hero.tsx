@@ -53,11 +53,11 @@ const Hero = () => {
             </span>
             <br />
             <br />
-            Currently, I am looking for a job in Frontend Development and
-            expanding expertise to encompass backend development, aspiring to
-            become a Full-stack Developer. Proven ability to adapt quickly to
-            new technologies and concepts while delivering high-quality
-            solutions.
+            Currently, I am looking for a job in Web Development with the
+            expertise in frontend development and expanding expertise to
+            encompass backend development, aspiring to become a Full-stack
+            Developer. Proven ability to adapt quickly to new technologies and
+            concepts while delivering high-quality solutions.
           </div>
 
           <Link

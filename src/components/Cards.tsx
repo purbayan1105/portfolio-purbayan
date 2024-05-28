@@ -19,6 +19,7 @@ type PB = {
   pb2?: string;
   pb3?: string;
   pb4?: string;
+  pb5?: string;
 };
 type ProjectType = {
   pId: number;
@@ -81,10 +82,10 @@ const Cards = ({ project }: ArrayType) => {
     initialSlide: 0,
     responsive: [
       {
-        breakpoint: 1024,
+        breakpoint: 1025,
         settings: {
-          slidesToShow: 3,
-          slidesToScroll: 3,
+          slidesToShow: 2,
+          slidesToScroll: 2,
           infinite: true,
           dots: true,
         },
@@ -125,11 +126,11 @@ const Cards = ({ project }: ArrayType) => {
                       key={item.pId}>
                       <CardBody className="space-y-5 ">
                         <Image
-                          src="/code1.jpeg"
-                          width={300}
-                          height={300}
+                          src={item.pImg}
+                          width={200}
+                          height={200}
                           alt="card-image"
-                          className="rounded-xl"
+                          className="rounded-xl flex mx-auto w-96 h-48"
                         />
                         <div className="text-xl font-medium text-center md:text-left dark:text-indigo-400 text-indigo-700">
                           {item.pHead}
@@ -172,6 +173,12 @@ const Cards = ({ project }: ArrayType) => {
                                 {tech.pb4 && (
                                   <button className="bg-gray-200 px-3 py-1.5 rounded-md dark:text-black">
                                     {tech.pb4}
+                                  </button>
+                                )}
+
+                                {tech.pb5 && (
+                                  <button className="bg-gray-200 px-3 py-1.5 rounded-md dark:text-black">
+                                    {tech.pb5}
                                   </button>
                                 )}
                               </div>
