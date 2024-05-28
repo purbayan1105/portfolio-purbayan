@@ -1,4 +1,5 @@
 import Academic from "@/components/Academic";
+import Announcement from "@/components/Announcement";
 import Cards from "@/components/Cards";
 
 import Footer from "@/components/Footer";

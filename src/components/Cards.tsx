@@ -109,7 +109,7 @@ const Cards = ({ project }: ArrayType) => {
   return (
     <>
       <div
-        className=" dark:text-white  bg-[#0e1630] text-black px-8 poppins pb-10 "
+        className=" dark:text-white  dark:bg-[#0e1630] text-black px-8 poppins pb-10 "
         id="projects">
         <div className="text-4xl font-semibold  text-center pt-10 mb-16">
           My Projects
@@ -121,7 +121,7 @@ const Cards = ({ project }: ArrayType) => {
                 <>
                   <div className="md:mx-auto">
                     <Card
-                      className="w-full md:w-80 shadow-none lg:h-[33rem] bg-blue-950 "
+                      className="w-full md:w-80 shadow-none lg:h-[33rem] dark:bg-blue-950 bg-blue-200"
                       key={item.pId}>
                       <CardBody className="space-y-5 ">
                         <Image
