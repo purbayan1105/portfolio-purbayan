@@ -90,6 +90,21 @@ const Projects = () => {
         { pb5: "Jotai" },
       ],
     },
+    {
+      pId: 8,
+      pImg: "/8.jpg",
+      pHead: "Form Validation",
+      pDes: "This Mock-up form is created using jotai, react hook  and zod resolver mainly, with next ui. Here, the data will be stored in local storage",
+      pBtn: "Click Here",
+      pSrc: "https://form-validation-sand-sigma.vercel.app/",
+      pb: [
+        { pb1: "React" },
+        { pb2: "Next UI" },
+        { pb3: "React Hook Form" },
+        { pb4: "Zod" },
+        { pb5: "Jotai with Storage" },
+      ],
+    },
   ];
   return (
     <>
