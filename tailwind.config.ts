@@ -10,6 +10,15 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      keyframes: {
+        zoom: {
+          "0%, 100%": { transform: "scale(1)" },
+          "50%": { transform: "scale(1.1)" },
+        },
+      },
+      animation: {
+        zoom: "zoom 3s infinite",
+      },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
