@@ -111,7 +111,7 @@ const Projects = () => {
       pHead: "To Do List With React",
       pDes: "I already added one To Do List to my portfolio, but this one is new and created using React, Next UI, Jotai and Typescript ",
       pBtn: "Click Here",
-      pSrc: "https://form-validation-sand-sigma.vercel.app/",
+      pSrc: "https://to-do-list-with-react-pi.vercel.app",
       pb: [
         { pb1: "React" },
         { pb2: "Next UI" },
