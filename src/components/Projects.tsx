@@ -105,6 +105,21 @@ const Projects = () => {
         { pb5: "Jotai with Storage" },
       ],
     },
+    {
+      pId: 9,
+      pImg: "/9.jpg",
+      pHead: "To Do List With React",
+      pDes: "I already added one To Do List to my portfolio, but this one is new and created using React, Next UI, Jotai and Typescript ",
+      pBtn: "Click Here",
+      pSrc: "https://form-validation-sand-sigma.vercel.app/",
+      pb: [
+        { pb1: "React" },
+        { pb2: "Next UI" },
+        { pb3: "Jotai" },
+        { pb4: "Local Storage" },
+        { pb5: "Typescript" },
+      ],
+    },
   ];
   return (
     <>
