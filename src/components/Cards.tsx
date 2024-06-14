@@ -68,6 +68,7 @@ function SampleprevArrow(props: any) {
 }
 
 const Cards = ({ project }: ArrayType) => {
+  const [dark, setDark] = useAtom(themeAtom);
   var settings = {
     // dots: true,
     infinite: true,
@@ -144,9 +145,11 @@ const Cards = ({ project }: ArrayType) => {
                             rel="noopener noreferrer"
                             className="w-full">
                             <Button
-                              color="primary"
-                              variant="bordered"
-                              className="w-full">
+                              color="success"
+                              variant="flat"
+                              className={`w-full font-bold ${
+                                dark ? "text-white" : "text-black"
+                              }`}>
                               Click Here
                             </Button>
                           </a>
