@@ -37,18 +37,18 @@ const Form2 = () => {
   };
 
   return (
-    <div className="lg:mx-8">
+    <div className="lg:mx-8 bg-blue ">
       <form className="poppins space-y-6" onSubmit={handleSubmit}>
         <div className="flex items-center gap-2">
-          <div className="w-5 h-0.5 bg-green-500"></div>
-          <span className="text-2xl font-normal  text-green-500">
+          <div className="w-5 h-0.5  bg-blue-600 dark:bg-green-500"></div>
+          <span className="text-2xl font-bold text-blue-600 dark:text-green-500 ">
             Get In Touch
           </span>
         </div>
         <Input
           placeholder="Your Full Name"
           color="primary"
-          className="w-[19rem]"
+          className="w-[19rem] "
           value={name}
           onChange={(e: any) => setName(e.target.value)}
           isRequired

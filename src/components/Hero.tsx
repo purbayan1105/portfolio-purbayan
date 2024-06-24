@@ -8,7 +8,7 @@ const Hero = () => {
   return (
     <>
       <div
-        className="grid grid-cols-1 lg:grid-cols-2 justify-around pl-4 lg:pl-8 poppins dark:bg-[#0e1630] lg:pt-12"
+        className="grid grid-cols-1 lg:grid-cols-2 justify-around pl-4 lg:pl-8 poppins bg-slate-200 dark:bg-[#0e1630] lg:pt-12"
         id="hero">
         <div className="lg:hidden flex justify-center items-center mt-5">
           <Image
@@ -47,9 +47,9 @@ const Hero = () => {
                   "Wordpress",
                   "Opencart",
                 ]}
-                typeSpeed={50}
+                typeSpeed={80}
                 loop
-                backSpeed={20}
+                backSpeed={50}
                 cursorChar={"."}
               />
             </span>

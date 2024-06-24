@@ -111,7 +111,7 @@ const Cards = ({ project }: ArrayType) => {
   return (
     <>
       <div
-        className=" dark:text-white  dark:bg-[#0e1630] text-black px-8 poppins pb-10 "
+        className=" dark:text-white bg-slate-200  dark:bg-[#0e1630] text-black px-8 poppins pb-10 "
         id="projects">
         <div className="text-4xl font-semibold  text-center pt-10 mb-16">
           My Projects

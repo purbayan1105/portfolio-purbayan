@@ -9,9 +9,14 @@ import { useEffect, useRef, useState } from "react";
 const Navbar = () => {
   const [dark, setDark] = useAtom(themeAtom);
   const [toggle, setToggle] = useState(false);
+  const [animate, setAnimate] = useState(false);
 
   const themeBtn = () => {
     setDark(!dark);
+    setAnimate(true);
+    setTimeout(() => {
+      setAnimate(false);
+    }, 300);
   };
 
   useEffect(() => {
@@ -40,7 +45,7 @@ const Navbar = () => {
 
   return (
     <>
-      <div className="grid grid-cols-4 md:grid-cols-4 px-4 md:px-8 py-5 items-center bg-blue-500 dark:bg-[#0e1630] border-b-2 border-gray-400 dark:border-[#0e1630] poppins">
+      <div className="grid grid-cols-4 md:grid-cols-4 px-4 md:px-8 py-5 items-center bg-slate-200 dark:bg-[#0e1630] border-b-1 border-slate-300 dark:border-[#3d2a6988] poppins">
         <div className="col-span-2 md:col-span-1">
           <div className="text-lg md:text-4xl font-normal">
             <span className="text-orange-500">P</span>
@@ -52,7 +57,7 @@ const Navbar = () => {
           </div>
         </div>
         <div className="hidden md:col-span-2 lg:grid grid-cols-5 text-md font-normal mx-auto gap-8">
-          <div className="cursor-pointer">
+          <div className="cursor-pointer font-semibold">
             <Link
               to="hero"
               spy={true}
@@ -62,7 +67,7 @@ const Navbar = () => {
               About
             </Link>
           </div>
-          <div className="cursor-pointer">
+          <div className="cursor-pointer font-semibold">
             <Link
               to="projects"
               spy={true}
@@ -72,7 +77,7 @@ const Navbar = () => {
               Projects
             </Link>
           </div>
-          <div className="cursor-pointer">
+          <div className="cursor-pointer font-semibold">
             <Link
               to="academics"
               spy={true}
@@ -82,7 +87,7 @@ const Navbar = () => {
               Academics
             </Link>
           </div>
-          <div className="cursor-pointer">
+          <div className="cursor-pointer font-semibold">
             <Link
               to="worke"
               spy={true}
@@ -92,7 +97,7 @@ const Navbar = () => {
               Experience
             </Link>
           </div>
-          <div className="cursor-pointer">
+          <div className="cursor-pointer font-semibold">
             <Link
               to="contacts"
               spy={true}
@@ -105,9 +110,17 @@ const Navbar = () => {
         </div>
 
         <div
-          className="flex items-center gap-2 justify-end border-2 border-solid border-black ms-auto px-5 py-3 rounded-[4rem] select-none cursor-pointer"
+          className="flex items-center gap-2 justify-end border-2 border-solid border-slate-300 dark:border-black ms-auto px-5 py-3 rounded-[4rem] select-none cursor-pointer"
           onClick={themeBtn}>
-          {dark ? <Sun /> : <Moon />}
+          {dark ? (
+            <Sun className={`${animate ? "animate-spin  ease-in-out" : ""}`} />
+          ) : (
+            <Moon
+              className={`${
+                animate ? "animate-spin  ease-in-out" : ""
+              } rotate-5`}
+            /> //check global css for reverse-spin, it's not tailwind.
+          )}
           {dark ? <div>Day</div> : <div>Dark</div>}
         </div>
 
