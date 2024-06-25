@@ -45,7 +45,7 @@ const Navbar = () => {
 
   return (
     <>
-      <div className="grid grid-cols-4 md:grid-cols-4 px-4 md:px-8 py-5 items-center bg-slate-200 dark:bg-[#0e1630] border-b-1 border-slate-300 dark:border-[#3d2a6988] poppins">
+      <div className="grid grid-cols-4 md:grid-cols-4 px-4 md:px-8 py-5 items-center bg-slate-200 dark:bg-[#0e1630] border-b-1 border-slate-300 dark:border-[#3d2a6988] poppins fixed w-full z-50">
         <div className="col-span-2 md:col-span-1">
           <div className="text-lg md:text-4xl font-normal">
             <span className="text-orange-500">P</span>
@@ -131,72 +131,73 @@ const Navbar = () => {
       {toggle && (
         <div
           ref={menuRef}
-          className="w-full bg-gray-300 dark:bg-white text-black space-y-4 px-2 py-2 text-xl font-normal poppins absolute z-10">
-          <div className="cursor-pointer hover:bg-gray-300 hover:py-2 hover:rounded-md  hover:px-2">
-            <Link
-              onClick={() => {
-                setToggle(false);
-              }}
-              to="hero"
-              spy={true}
-              smooth={true}
-              offset={-70}
-              duration={500}>
-              About
-            </Link>
-          </div>
-          <div className="cursor-pointer hover:bg-gray-300 hover:py-2 hover:rounded-md  hover:px-2">
-            <Link
-              onClick={() => {
-                setToggle(false);
-              }}
-              to="projects"
-              spy={true}
-              smooth={true}
-              offset={-70}
-              duration={500}>
-              Projects
-            </Link>
-          </div>
-          <div className="cursor-pointer hover:bg-gray-300 hover:py-2 hover:rounded-md  hover:px-2">
-            <Link
-              onClick={() => {
-                setToggle(false);
-              }}
-              to="academics"
-              spy={true}
-              smooth={true}
-              offset={-70}
-              duration={500}>
-              Academics
-            </Link>
-          </div>
-          <div className="cursor-pointer hover:bg-gray-300 hover:py-2 hover:rounded-md  hover:px-2">
-            <Link
-              onClick={() => {
-                setToggle(false);
-              }}
-              to="worke"
-              spy={true}
-              smooth={true}
-              offset={-70}
-              duration={500}>
-              Experience
-            </Link>
-          </div>
-          <div className="cursor-pointer hover:bg-gray-300 hover:py-2 hover:px-2 hover:rounded-md">
-            <Link
-              onClick={() => {
-                setToggle(false);
-              }}
-              to="contacts"
-              spy={true}
-              smooth={true}
-              offset={-70}
-              duration={1000}>
-              Contact
-            </Link>
-          </div>
+          className="w-full bg-gray-300 dark:bg-white text-black space-y-6 px-2 py-2 text-xl font-normal poppins  z-50 fixed mt-[5.5rem] dropdownAnimation">
+          <Link
+            onClick={() => {
+              setToggle(false);
+            }}
+            to="hero"
+            spy={true}
+            smooth={true}
+            offset={-70}
+            duration={500}>
+            <div className="cursor-pointer hover:bg-gray-300 hover:py-2 hover:rounded-md  hover:px-2">
+              <p className="py-2">About </p>
+            </div>
+          </Link>
+          <Link
+            onClick={() => {
+              setToggle(false);
+            }}
+            to="projects"
+            spy={true}
+            smooth={true}
+            offset={-70}
+            duration={500}>
+            <div className="cursor-pointer hover:bg-gray-300 hover:py-2 hover:rounded-md  hover:px-2">
+              <p className="py-2">Projects </p>
+            </div>
+          </Link>
+          <Link
+            onClick={() => {
+              setToggle(false);
+            }}
+            to="academics"
+            spy={true}
+            smooth={true}
+            offset={-70}
+            duration={500}
+            className="cursor-pointer hover:bg-gray-300 hover:py-2 hover:rounded-md  hover:px-2">
+            <div className="cursor-pointer hover:bg-gray-300 hover:py-2 hover:rounded-md  hover:px-2">
+              <p className="py-2">Academic</p>
+            </div>
+          </Link>
+          <Link
+            onClick={() => {
+              setToggle(false);
+            }}
+            to="worke"
+            spy={true}
+            smooth={true}
+            offset={-70}
+            duration={500}>
+            <div className="cursor-pointer hover:bg-gray-300 hover:py-2 hover:rounded-md  hover:px-2">
+              <p className="py-2">Experience</p>
+            </div>
+          </Link>
+          <Link
+            onClick={() => {
+              setToggle(false);
+            }}
+            to="contacts"
+            spy={true}
+            smooth={true}
+            offset={-70}
+            duration={500}>
+            <div className="cursor-pointer hover:bg-gray-300 hover:py-2 hover:rounded-md  hover:px-2">
+              <p className="py-2">Contact</p>
+            </div>
+          </Link>
         </div>
       )}
     </>

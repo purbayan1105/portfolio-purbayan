@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { FaCode, FaSchool } from "react-icons/fa";
+import { FaCode, FaLaptopCode, FaSchool } from "react-icons/fa";
 import { FaSchoolFlag } from "react-icons/fa6";
 import { GoHistory } from "react-icons/go";
 import { IoSchoolSharp } from "react-icons/io5";
@@ -42,8 +42,8 @@ const Academic = () => {
                 <div className="text-xl text-indigo-700 font-bold">
                   X -2014 (86.42%)
                 </div>
-                <div className="text-2xl dark:text-white flex gap-5 items-center">
-                  <FaSchool />
+                <div className="text-xl lg:text-2xl dark:text-white flex  items-start gap-3">
+                  <FaSchool className="w-10 h-10 lg:w-6 lg:h-8" />
 
                   <p> Hili Ramanath High School </p>
                 </div>
@@ -52,8 +52,8 @@ const Academic = () => {
                 <div className="text-xl text-indigo-700 font-bold">
                   XII -2016 (Science- 83.8%)
                 </div>
-                <div className="text-2xl dark:text-white flex gap-5 items-center">
-                  <FaSchoolFlag />
+                <div className="text-xl lg:text-2xl dark:text-white flex items-start gap-3">
+                  <FaSchoolFlag className="w-10 h-10 lg:w-6 lg:h-8" />
 
                   <p> Balurghat LMAU Vidyalaya </p>
                 </div>
@@ -65,8 +65,8 @@ const Academic = () => {
                 <div className="text-xl text-indigo-700 font-bold">
                   Graduation -2019 (English Hons- 54.5%)
                 </div>
-                <div className="text-2xl dark:text-white flex items-center gap-5">
-                  <IoSchoolSharp />
+                <div className="text-xl lg:text-2xl dark:text-white flex items-start gap-3">
+                  <IoSchoolSharp className="w-10 h-10 lg:w-6 lg:h-8" />
 
                   <p> Asutosh College, Kolkata</p>
                 </div>
@@ -75,8 +75,9 @@ const Academic = () => {
                 <div className="text-xl text-indigo-700 font-bold ">
                   Web Development -2023 (Ongoing)
                 </div>
-                <div className="text-2xl dark:text-white flex items-center gap-5">
-                  <FaCode />
+                <div className="text-xl lg:text-2xl dark:text-white flex items-start gap-3">
+                  <FaLaptopCode className="w-16 h-16  lg:w-6 lg:h-8" />
+
                   <p> Central Institute Of Technology (Dumdum) </p>
                 </div>
               </div>

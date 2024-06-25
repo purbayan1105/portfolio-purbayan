@@ -51,3 +51,16 @@
 .animate-reverse-spin {
   animation: reverse-spin 1s linear infinite;
 }
+
+@keyframes dropdownMenu {
+  from {
+    transform: translateY(-100%);
+  }
+  to {
+    transform: translateY(0%);
+  }
+}
+
+.dropdownAnimation {
+  animation: dropdownMenu 0.5s forwards ease-in;
+}
