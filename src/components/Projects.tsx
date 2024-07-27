@@ -128,7 +128,7 @@ const Projects = () => {
       pHead: "Weather App 2024",
       pDes: "This weather app is built using react. Initially, I found it difficult to get  an api. But I managed to get one in  the end.",
       pBtn: "Click Here",
-      pSrc: "https://weather-app-dun-xi.vercel.app",
+      pSrc: "https://weather-app-by-pg.netlify.app/",
       pb: [
         { pb1: "React" },
         { pb2: "Next UI" },
