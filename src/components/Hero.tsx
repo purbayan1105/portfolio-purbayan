@@ -1,8 +1,10 @@
 import { Button } from "@nextui-org/react";
 import { ArrowBigDown } from "lucide-react";
+// import { tree } from "next/dist/build/templates/app-page";
 import Image from "next/image";
+import Link from "next/link";
 import { ReactTyped } from "react-typed";
-import { Link } from "react-scroll";
+//  import { Link } from "react-scroll";
 
 const Hero = () => {
   return (
@@ -64,21 +66,18 @@ const Hero = () => {
             while delivering high-quality solutions.
           </div>
 
-          <Link
-            to="projects"
-            spy={true}
-            smooth={true}
-            offset={-70}
-            duration={500}>
-            <div className=" relative flex justify-center items-center mt-8 mb-5 mx-5 md:w-52 hover:lg:scale-125 hover:scale-110 duration-400">
-              <div className="absolute inset-0 bg-gradient-to-r from-indigo-500 to-purple-500 blur-md rounded-lg animate-zoom"></div>
-              <button className="flex justify-center items-center px-3 relative bg-gray-200 dark:bg-gray-800 w-full rounded-2xl py-3 ">
-                <span>Explore More</span>
-                <span>
-                  <ArrowBigDown />
-                </span>
-              </button>
-            </div>
+          <Link href="/Purbayan Ghosh Resume.pdf" legacyBehavior>
+            <a download>
+              <div className=" relative flex justify-center items-center mt-8 mb-5 mx-5 md:w-52 hover:lg:scale-125 hover:scale-110 duration-400">
+                <div className="absolute inset-0 bg-gradient-to-r from-indigo-500 to-purple-500 blur-md rounded-lg animate-zoom"></div>
+                <button className="flex justify-center items-center px-3 relative bg-gray-200 dark:bg-gray-800 w-full rounded-2xl py-3 ">
+                  <span>Download Resume </span>
+                  <span>
+                    <ArrowBigDown />
+                  </span>
+                </button>
+              </div>
+            </a>
           </Link>
         </div>
 
