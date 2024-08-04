@@ -11,6 +11,7 @@ const Navbar = () => {
   const [dark, setDark] = useAtom(themeAtom);
   const [toggle, setToggle] = useState(false);
   const [animate, setAnimate] = useState(false);
+  const [activeContact, setActiveContact] = useState("");
 
   const themeBtn = () => {
     setDark(!dark);
@@ -73,7 +74,8 @@ const Navbar = () => {
               spy={true}
               smooth={true}
               offset={-70}
-              duration={500}>
+              duration={500}
+              activeClass=" dark:text-green-300 text-green-500">
               About
             </Link>
           </div>
@@ -83,7 +85,8 @@ const Navbar = () => {
               spy={true}
               smooth={true}
               offset={-70}
-              duration={500}>
+              duration={500}
+              activeClass=" dark:text-green-300 text-green-500">
               Projects
             </Link>
           </div>
@@ -93,7 +96,8 @@ const Navbar = () => {
               spy={true}
               smooth={true}
               offset={-70}
-              duration={500}>
+              duration={500}
+              activeClass=" dark:text-green-300 text-green-500">
               Academics
             </Link>
           </div>
@@ -103,7 +107,8 @@ const Navbar = () => {
               spy={true}
               smooth={true}
               offset={-70}
-              duration={500}>
+              duration={500}
+              activeClass=" dark:text-green-300 text-green-500">
               Experience
             </Link>
           </div>
@@ -113,8 +118,9 @@ const Navbar = () => {
               spy={true}
               smooth={true}
               offset={-70}
-              duration={1000}>
-              Contact
+              duration={1000}
+              activeClass=" dark:text-green-300 text-green-500">
+              <p>Contact</p>
             </Link>
           </div>
         </div>
