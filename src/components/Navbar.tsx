@@ -5,6 +5,7 @@ import { Cross, Github, Linkedin, Menu, Moon, Sun, X } from "lucide-react";
 import { Link } from "react-scroll";
 
 import { useEffect, useRef, useState } from "react";
+import { SiNextdotjs } from "react-icons/si";
 
 const Navbar = () => {
   const [dark, setDark] = useAtom(themeAtom);
@@ -48,12 +49,21 @@ const Navbar = () => {
       <div className="grid grid-cols-4 md:grid-cols-4 px-4 md:px-8 py-5 items-center bg-slate-200 dark:bg-[#0e1630] border-b-1 border-slate-300 dark:border-[#3d2a6988] poppins fixed w-full z-50">
         <div className="col-span-2 md:col-span-1">
           <div className="text-lg md:text-4xl font-normal">
-            <span className="text-orange-500">P</span>
-            <span>urbayan</span> <span className="text-green-500"> G</span>
-            <span>hosh</span>
+            <span className="bg-gradient-to-tr from-green-500 to-green-300 bg-clip-text w-fit text-transparent font-semibold">
+              Purbayan
+            </span>
+            <span className="bg-gradient-to-tr from-green-500 to-green-300 bg-clip-text w-fit text-transparent font-semibold">
+              {" "}
+              Ghosh
+            </span>
           </div>
-          <div className="ms-auto">
-            <p className="md:text-xl">Web Developer</p>
+          <div className="ms-auto flex lg:gap-2 items-center">
+            <p className="md:text-xl text-gray-900 dark:bg-gradient-to-tr from-gray-400 to-gray-100 dark:bg-clip-text w-fit dark:text-transparent font-semibold">
+              Web Developer
+            </p>
+            <div className="lg:border-2 border-solid border-[#00800066]  h-fit rounded-full px-2 py-2">
+              <SiNextdotjs size={25} />
+            </div>
           </div>
         </div>
         <div className="hidden md:col-span-2 lg:grid grid-cols-5 text-md font-normal mx-auto gap-8">
