@@ -3,7 +3,7 @@ import CountUp from "react-countup";
 const MyskillArray = () => {
   return (
     <>
-      <div className="bg-slate-200  dark:bg-[#111934] poppins pt-8 pb-8">
+      <div className="bg-white  dark:bg-[#111934] poppins pt-8 pb-8">
         <div className=" pt-5 flex justify-center items-center text-4xl font-semibold">
           Journey So Far
         </div>

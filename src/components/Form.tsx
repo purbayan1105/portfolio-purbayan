@@ -10,7 +10,7 @@ const Form = () => {
     <>
       <div
         id="contacts"
-        className="grid grid-cols-1 md:grid-cols-2 pt-24 md:px-24 pb-10 px-8 dark:bg-black lg:h-[90dvh] items-center">
+        className="grid grid-cols-1 md:grid-cols-2 pt-24 md:px-24 pb-10 px-8 bg-gray-200 dark:bg-black lg:h-[90dvh] items-center">
         <Form2 />
         <div className="space-y-5 lg:pl-16 mt-8 md:mt-0">
           <div className="text-3xl font-normal poppins">Contact Me</div>

@@ -15,7 +15,7 @@ import { TiHtml5 } from "react-icons/ti";
 const Semifooter = () => {
   return (
     <>
-      <div className="dark:bg-black lg:h-[20dvh] pb-5">
+      <div className="dark:bg-black lg:h-[20dvh] pb-5 bg-gray-200">
         <Marquee className="flex justify-between items-center" speed={100}>
           <div className="text-4xl lg:text-[80px] mx-5 lg:mx-8 text-center">
             <TiHtml5 />

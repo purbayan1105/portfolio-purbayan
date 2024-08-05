@@ -16,7 +16,7 @@ const Cms = () => {
   };
   return (
     <>
-      <div className="poppins bg-slate-200  dark:bg-[#111934]">
+      <div className="poppins bg-gray-100  dark:bg-[#111934]">
         <div className="text-4xl flex justify-center items-center font-semibold pt-8">
           CMS Projects
         </div>
