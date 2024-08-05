@@ -40,12 +40,12 @@ const WorkE = () => {
             <div className="bg-[#4b4be442] px-3 py-2">
               <div className="">
                 <span className="text-blue-600 dark:text-green-500 text-xl font-bold">
-                  Oswal Publishers
+                  Freelancer
                 </span>
-                <span className=""> (Since 2022)</span>
+                <span className=""> (Since 2023)</span>
               </div>
               <div className="dark:text-gray-400 text-gray-600">
-                Questions and Answers Maker
+                Wordpress Website Designer
               </div>
             </div>
 
