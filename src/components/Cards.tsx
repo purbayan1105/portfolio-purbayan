@@ -123,7 +123,7 @@ const Cards = ({ project }: ArrayType) => {
                 <>
                   <div className="md:mx-auto">
                     <Card
-                      className="w-full md:w-80 shadow-none lg:h-[33rem] dark:bg-blue-950 bg-blue-200"
+                      className="w-full md:w-80 shadow-none lg:h-[33rem] dark:bg-[#00000039] bg-blue-200"
                       key={item.pId}>
                       <CardBody className="space-y-5 ">
                         <Image

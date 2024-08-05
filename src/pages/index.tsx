@@ -1,6 +1,7 @@
 import Academic from "@/components/Academic";
 import Announcement from "@/components/Announcement";
 import Cards from "@/components/Cards";
+import Cms from "@/components/Cms";
 
 import Footer from "@/components/Footer";
 import Form from "@/components/Form";
@@ -19,6 +20,7 @@ const index = () => {
       <Hero />
       <MyskillArray />
       <Projects />
+      <Cms />
       <Academic />
       <WorkE />
       <Hobbies />
