@@ -19,7 +19,7 @@ const MyskillArray = () => {
           </div>
           <div className="flex items-center gap-5">
             <div className="text-6xl font-bold text-gray-900 dark:bg-gradient-to-tr from-gray-400 to-gray-100 dark:bg-clip-text w-fit dark:text-transparent ">
-              <CountUp start={0} end={8} duration={5} suffix="+"></CountUp>
+              <CountUp start={0} end={10} duration={5} suffix="+"></CountUp>
             </div>
             <div className="">
               <div className="text-gray-500">Technologies </div>

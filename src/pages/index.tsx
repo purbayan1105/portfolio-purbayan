@@ -10,6 +10,7 @@ import Hobbies from "@/components/Hobbies";
 import MyskillArray from "@/components/MyskillArray";
 import Navbar from "@/components/Navbar";
 import Projects from "@/components/Projects";
+import Semifooter from "@/components/Semi-footer";
 import Socials from "@/components/Socials";
 import WorkE from "@/components/WorkE";
 
@@ -25,6 +26,7 @@ const index = () => {
       <WorkE />
       <Hobbies />
       <Form />
+      <Semifooter />
       <Footer />
     </>
   );
