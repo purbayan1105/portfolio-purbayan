@@ -3,7 +3,7 @@ const WorkE = () => {
     <>
       <div className=" dark:bg-black">
         <div
-          className="poppins grid grid-cols-1 lg:grid-cols-3 pt-16 "
+          className="poppins grid grid-cols-1 lg:grid-cols-3 items-center lg:h-[50dvh]"
           id="worke">
           <div className="flex items-center gap-2 justify-center pb-10">
             <div className="w-5 h-0.5 bg-blue-600 dark:bg-green-500"></div>

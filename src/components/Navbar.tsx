@@ -11,7 +11,7 @@ const Navbar = () => {
   const [dark, setDark] = useAtom(themeAtom);
   const [toggle, setToggle] = useState(false);
   const [animate, setAnimate] = useState(false);
-  const [activeContact, setActiveContact] = useState("");
+  const [activeContact, setActiveContact] = useState(false);
 
   const themeBtn = () => {
     setDark(!dark);
