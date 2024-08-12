@@ -59,8 +59,8 @@ const Hero = () => {
             </span>
             <br />
             <br />
-            Currently, I am looking for a job in Web Development with the
-            expertise in frontend and expanding expertise to encompass backend
+            Versatile Frontend developer with 2 years of experience in web
+            development and expanding more expertise to encompass backend
             development, aspiring to become a Full-stack Developer.
             <br />
             <br />
