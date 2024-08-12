@@ -50,10 +50,10 @@ const Navbar = () => {
       <div className="grid grid-cols-4 md:grid-cols-4 px-4 md:px-8 py-5 items-center bg-slate-200 dark:bg-[#0e1630] border-b-1 border-slate-300 dark:border-[#3d2a6988] poppins fixed w-full z-50">
         <div className="col-span-2 md:col-span-1">
           <div className="text-lg md:text-4xl font-normal">
-            <span className="bg-gradient-to-tr from-green-500 to-green-300 bg-clip-text w-fit text-transparent font-semibold">
+            <span className="bg-gradient-to-tr dark:from-green-500 dark:to-green-300 bg-clip-text w-fit text-transparent font-semibold from-blue-400 to-blue-700">
               Purbayan
             </span>
-            <span className="bg-gradient-to-tr from-green-500 to-green-300 bg-clip-text w-fit text-transparent font-semibold">
+            <span className="bg-gradient-to-tr dark:from-green-500 dark:to-green-300 bg-clip-text w-fit text-transparent font-semibold from-blue-400 to-blue-700">
               {" "}
               Ghosh
             </span>

@@ -14,7 +14,7 @@ const MyskillArray: React.FC = () => {
             {({ isVisible }: { isVisible: boolean }) => (
               <>
                 <div className="text-6xl font-bold text-gray-900 dark:bg-gradient-to-tr from-gray-400 to-gray-100 dark:bg-clip-text w-fit dark:text-transparent">
-                  {isVisible ? <CountUp start={0} end={1} duration={2} /> : "0"}
+                  {isVisible ? <CountUp start={0} end={2} duration={2} /> : "0"}
                   +
                 </div>
                 <div>

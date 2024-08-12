@@ -27,11 +27,11 @@ const Cms = () => {
           collaboration with my seniors, highlighting my teamwork abilities.
         </div>
         {/* Tab section- Wordpress and Shopify */}
-        <div className="grid grid-cols-2 border-2 border-solid border-green-500  mx-5 lg:mx-24 mt-14 rounded-xl">
+        <div className="grid grid-cols-2 border-2 border-solid border-blue-500 dark:border-green-500  mx-5 lg:mx-24 mt-14 rounded-xl">
           <div
             className={`flex justify-center items-center text-lg ${
               selectedComp === "wordpress"
-                ? "bg-green-300 text-black w-full h-full py-3"
+                ? "dark:bg-green-300 bg-blue-300 text-black w-full h-full py-3"
                 : ""
             } font-semibold rounded-l-lg select-none cursor-pointer`}
             onClick={() => setSelectedComp("wordpress")}>
@@ -41,7 +41,7 @@ const Cms = () => {
           <div
             className={`flex justify-center items-center text-lg ${
               selectedComp === "shopify"
-                ? "bg-green-300 text-black w-full h-full py-3"
+                ? "dark:bg-green-300 bg-blue-300 text-black w-full h-full py-3"
                 : ""
             } font-semibold rounded-r-lg select-none cursor-pointer`}
             onClick={() => {

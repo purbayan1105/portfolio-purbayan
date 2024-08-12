@@ -3,6 +3,7 @@ import { ArrowBigDown } from "lucide-react";
 // import { tree } from "next/dist/build/templates/app-page";
 import Image from "next/image";
 import Link from "next/link";
+import { FiDownload } from "react-icons/fi";
 import { ReactTyped } from "react-typed";
 //  import { Link } from "react-scroll";
 
@@ -38,12 +39,13 @@ const Hero = () => {
                   "CSS",
                   "Javascript",
                   "Typescript",
-                  "Tailwind CSS",
+                  "Tailwind",
                   "Bootstrap",
                   "React JS",
                   "Node JS",
                   "Next JS",
-                  "Tanstack Query",
+                  "ReactQuery",
+                  "MongoDB",
                   "Git",
                   "Shopify",
                   "Wordpress",
@@ -66,14 +68,17 @@ const Hero = () => {
             while delivering high-quality solutions.
           </div>
 
-          <Link href="/Purbayan Ghosh Resume.pdf" legacyBehavior>
+          <Link
+            href="/Purbayan Ghosh Resume .pdf"
+            target="__blank"
+            legacyBehavior>
             <a download>
               <div className=" relative flex justify-center items-center mt-8 mb-5 mx-5 md:w-52 hover:lg:scale-125 hover:scale-110 duration-400">
-                <div className="absolute inset-0 bg-gradient-to-r from-indigo-500 to-purple-500 blur-md rounded-lg animate-zoom"></div>
-                <button className="flex justify-center items-center px-3 relative bg-gray-200 dark:bg-gray-800 w-full rounded-2xl py-3 ">
-                  <span>Download Resume </span>
+                <div className="absolute inset-0 bg-gradient-to-r from-indigo-500 via-yellow-300 to-purple-400 blur-md rounded-lg animate-pulse"></div>
+                <button className="flex justify-center items-center gap-2 px-3 relative bg-blue-200 dark:bg-gray-800 w-full rounded-2xl py-3 ">
+                  <span className="font-bold">Download Resume </span>
                   <span>
-                    <ArrowBigDown />
+                    <FiDownload />
                   </span>
                 </button>
               </div>
