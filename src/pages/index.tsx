@@ -5,6 +5,7 @@ import Cms from "@/components/Cms";
 
 import Footer from "@/components/Footer";
 import Form from "@/components/Form";
+import FrontendSkills from "@/components/FrontendSkills";
 import Hero from "@/components/Hero";
 import Hobbies from "@/components/Hobbies";
 import MyskillArray from "@/components/MyskillArray";
@@ -23,6 +24,7 @@ const index = () => {
       <MyskillArray />
       <Projects />
       <Cms />
+      <FrontendSkills />
       <Academic />
       <WorkE />
       <Hobbies />
