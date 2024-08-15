@@ -31,7 +31,7 @@ const Cms = () => {
           <div
             className={`flex justify-center items-center text-lg ${
               selectedComp === "wordpress"
-                ? "dark:bg-green-300 bg-blue-300 text-black w-full h-full py-3"
+                ? "dark:bg-gradient-to-tr dark:from-green-800 dark:to-green-300 bg-blue-300 text-black w-full h-full py-3"
                 : ""
             } font-semibold rounded-l-lg select-none cursor-pointer`}
             onClick={() => setSelectedComp("wordpress")}>
@@ -41,7 +41,7 @@ const Cms = () => {
           <div
             className={`flex justify-center items-center text-lg ${
               selectedComp === "shopify"
-                ? "dark:bg-green-300 bg-blue-300 text-black w-full h-full py-3"
+                ? "dark:bg-gradient-to-tl dark:from-green-800 dark:via-green-400 dark:to-green-300 bg-blue-300 text-black w-full h-full py-3"
                 : ""
             } font-semibold rounded-r-lg select-none cursor-pointer`}
             onClick={() => {

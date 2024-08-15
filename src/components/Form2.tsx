@@ -73,8 +73,7 @@ const Form2 = () => {
 
         <Button
           type="submit"
-          className="w-[19rem] font-semibold text-white"
-          color="success">
+          className="w-[19rem] font-semibold text-white dark:bg-gradient-to-t dark:from-green-600 dark:to-green-300 bg-blue-300">
           Submit
         </Button>
       </form>

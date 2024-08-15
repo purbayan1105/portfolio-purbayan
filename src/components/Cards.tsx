@@ -3,6 +3,7 @@ import {
   Button,
   Card,
   CardBody,
+  CardFooter,
   CardHeader,
 } from "@nextui-org/react";
 import Image from "next/image";
@@ -111,7 +112,7 @@ const Cards = ({ project }: ArrayType) => {
   return (
     <>
       <div
-        className=" dark:text-white bg-slate-200  dark:bg-[#0e1630] text-black px-8 poppins pb-10 "
+        className=" dark:text-white bg-white dark:bg-[#0e1630] text-black px-8 poppins pb-10 "
         id="projects">
         <div className="text-4xl font-semibold  text-center pt-10 mb-16">
           My Projects
@@ -139,21 +140,23 @@ const Cards = ({ project }: ArrayType) => {
                         <div className="text-center md:text-left text-sm">
                           {item.pDes}
                         </div>
-                        <Link href={item.pSrc} passHref legacyBehavior>
-                          <a
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            className="w-full">
-                            <Button
-                              color="success"
-                              variant="flat"
-                              className={`w-full font-bold ${
-                                dark ? "text-white" : "text-black"
-                              }`}>
-                              Click Here
-                            </Button>
-                          </a>
-                        </Link>
+                        <CardFooter>
+                          <Link href={item.pSrc} passHref legacyBehavior>
+                            <a
+                              target="_blank"
+                              rel="noopener noreferrer"
+                              className="w-full">
+                              <Button
+                                variant="flat"
+                                className={`w-full font-bold dark:bg-gradient-to-t
+                                   dark:from-green-600 dark:to-green-300 ${
+                                     dark ? "text-white" : "text-black"
+                                   }`}>
+                                Click Here
+                              </Button>
+                            </a>
+                          </Link>
+                        </CardFooter>
                         {item.pb && (
                           <div className="text-center md:text-left text-sm flex flex-wrap justify-center gap-2 ">
                             {item.pb.map((tech, index) => (

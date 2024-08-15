@@ -19,7 +19,7 @@ const Academic = () => {
           Academics
         </div>
         <div className="grid  grid-cols-1 md:grid-cols-2 gap-10  mt-5 mx-10 poppins pb-10 ">
-          <div className="text-md md:text-lg poppins text-gray-400 bg-slate-800 px-4 py-6 rounded-lg ">
+          <div className="text-md md:text-lg poppins dark:text-gray-400 text-gray-800 font-semibold border-gray-400 border-2 border-solid px-4 py-6 rounded-lg bg-gradient-to-bl from-transparent via-transparent to-blue-500/40">
             <p>
               Coming from a place where education was not easily accessible, I
               didn't have a solid plan for my future. I scored well in my 10th
@@ -37,9 +37,9 @@ const Academic = () => {
             </p>
           </div>
           <div className="space-y-5">
-            <div className="bg-[rgba(113,103,252,0.16)] text-black px-5 pt-5 space-y-4 rounded-md pb-5 hover:bg-green-400 transition hover:translate-y-3">
+            <div className="bg-[rgba(113,103,252,0.16)] dark:bg-gradient-to-tr dark:from-blue-500 dark:via-blue-900 dark:to-blue-200/50 text-black px-5 pt-5 space-y-4 rounded-md pb-5 hover:bg-green-400 transition hover:translate-y-3">
               <div className="">
-                <div className="text-xl text-indigo-700 font-bold">
+                <div className="text-xl dark:text-purple-300 font-bold">
                   X -2014 (86.42%)
                 </div>
                 <div className="text-xl lg:text-2xl dark:text-white flex  items-start gap-3">
@@ -49,7 +49,7 @@ const Academic = () => {
                 </div>
               </div>
               <div className="">
-                <div className="text-xl text-indigo-700 font-bold">
+                <div className="text-xl dark:text-purple-300 font-bold">
                   XII -2016 (Science- 83.8%)
                 </div>
                 <div className="text-xl lg:text-2xl dark:text-white flex items-start gap-3">
@@ -60,9 +60,9 @@ const Academic = () => {
               </div>
             </div>
 
-            <div className="bg-[rgba(113,103,252,0.16)] px-5 space-y-4 pt-5 rounded-md pb-5 lg:mt-20 hover:bg-green-400 transition hover:translate-y-[-1rem]">
+            <div className="bg-[rgba(113,103,252,0.16)] dark:bg-gradient-to-tr dark:from-blue-500 dark:via-blue-900 dark:to-blue-200/50 px-5 space-y-4 pt-5 rounded-md pb-5 lg:mt-20 hover:bg-green-400 transition hover:translate-y-[-1rem]">
               <div className="">
-                <div className="text-xl text-indigo-700 font-bold">
+                <div className="text-xl dark:text-purple-300 font-bold">
                   Graduation -2019 (English Hons- 54.5%)
                 </div>
                 <div className="text-xl lg:text-2xl dark:text-white flex items-start gap-3">
@@ -72,7 +72,7 @@ const Academic = () => {
                 </div>
               </div>
               <div className="">
-                <div className="text-xl text-indigo-700 font-bold ">
+                <div className="text-xl dark:text-purple-300 font-bold ">
                   Web Development -2023 (Ongoing)
                 </div>
                 <div className="text-xl lg:text-2xl dark:text-white flex items-start gap-3">
