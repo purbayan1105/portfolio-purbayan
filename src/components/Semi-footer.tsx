@@ -9,13 +9,13 @@ import {
 } from "react-icons/fa";
 import { IoLogoCss3 } from "react-icons/io5";
 import { RiNextjsFill, RiTailwindCssFill } from "react-icons/ri";
-import { SiJavascript } from "react-icons/si";
+import { SiExpress, SiJavascript, SiMongodb } from "react-icons/si";
 import { TiHtml5 } from "react-icons/ti";
 
 const Semifooter = () => {
   return (
     <>
-      <div className="dark:bg-black lg:h-[20dvh] pb-5 lg:pb-14 bg-gray-200 dark:text-gray-400 text-gray-600">
+      <div className="dark:bg-black lg:h-[20dvh] pb-5 lg:pb-14 bg-gray-200 dark:text-gray-400 text-gray-600 pt-5 lg:pt-8">
         <Marquee className="flex justify-between items-center" speed={100}>
           <div className="text-4xl lg:text-[60px] mx-5 lg:mx-14 text-center">
             <TiHtml5 />
@@ -48,6 +48,18 @@ const Semifooter = () => {
           <div className="text-4xl lg:text-[60px] mx-5 lg:mx-14 text-center">
             <RiNextjsFill />
             <span className=" text-sm lg:text-lg font-semibold">Next.js</span>
+          </div>
+
+          <div className="text-4xl lg:text-[60px] mx-5 lg:mx-14 text-center">
+            <SiExpress />
+
+            <span className=" text-sm lg:text-lg font-semibold">
+              Express js
+            </span>
+          </div>
+          <div className="text-4xl lg:text-[60px] mx-5 lg:mx-14 text-center">
+            <SiMongodb />
+            <span className=" text-sm lg:text-lg font-semibold">Mongo DB</span>
           </div>
           <div className="text-4xl lg:text-[60px] mx-5 lg:mx-14 text-center">
             <FaGithub />

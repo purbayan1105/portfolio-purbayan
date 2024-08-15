@@ -43,6 +43,7 @@ const Hero = () => {
                   "Bootstrap",
                   "React JS",
                   "Node JS",
+                  "Express JS",
                   "Next JS",
                   "ReactQuery",
                   "MongoDB",
@@ -59,7 +60,7 @@ const Hero = () => {
             </span>
             <br />
             <br />
-            Versatile Frontend developer with 2 years of experience in web
+            Versatile Frontend Developer with 2 years of experience in web
             development and expanding more expertise to encompass backend
             development, aspiring to become a Full-stack Developer.
             <br />

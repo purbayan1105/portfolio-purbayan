@@ -19,6 +19,7 @@ const index = () => {
     <>
       <Navbar />
       <Hero />
+
       <MyskillArray />
       <Projects />
       <Cms />
