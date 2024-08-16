@@ -70,7 +70,7 @@ const Hero = () => {
           </div>
 
           <Link
-            href="/Purbayan Ghosh Resume .pdf"
+            href="/Purbayan Ghosh New Resume.pdf"
             target="__blank"
             legacyBehavior>
             <a download>

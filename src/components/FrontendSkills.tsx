@@ -50,7 +50,7 @@ const FrontendSkills = () => {
             return (
               <>
                 <div
-                  className="bg-gradient-to-tr from-transparent via-transparent to-green-300/70 shadow-sm shadow-black border-gray-200/30 dark:border-blue-800/30 rounded-lg border-2 border-solid p-6 mx-5 poppins"
+                  className="bg-gradient-to-tr from-transparent via-transparent to-green-300/70 shadow-sm shadow-black border-gray-200/30 dark:border-blue-800/30 rounded-lg border-2 border-solid p-6 mx-5 poppins hover:animate-pulse"
                   key={skill.heading}>
                   <div className="flex items-center gap-3">
                     <PiStarFourFill className="text-yellow-400 shadow-sm" />
