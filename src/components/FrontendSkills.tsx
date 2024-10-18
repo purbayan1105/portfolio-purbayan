@@ -43,7 +43,7 @@ const FrontendSkills = () => {
     <>
       <div className="dark:bg-blue-950 lg:px-16 bg-white poppins py-8">
         <div className="text-4xl flex justify-center items-center font-semibold py-8">
-          Thing I Do Well
+          Things I Do Well
         </div>
         <div className="lg:grid grid-cols-3 items-center lg:h-[80dvh] space-y-6  ">
           {techSkillsArray.map((skill, key) => {
