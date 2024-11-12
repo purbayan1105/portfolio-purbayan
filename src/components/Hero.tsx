@@ -71,7 +71,7 @@ const Hero = () => {
 
           <Link
             href="/Purbayan Ghosh New Resume.pdf"
-            target="__blank"
+            target="_blank"
             legacyBehavior>
             <a download>
               <div className=" relative flex justify-center items-center mt-8 mb-5 mx-5 md:w-52 hover:lg:scale-125 hover:scale-110 duration-400">

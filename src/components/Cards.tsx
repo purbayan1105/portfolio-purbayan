@@ -126,7 +126,7 @@ const Cards = ({ project }: ArrayType) => {
                     <Card
                       className="w-full md:w-80 shadow-none lg:h-[33rem] dark:bg-[#00000039] bg-blue-200"
                       key={item.pId}>
-                      <CardBody className="space-y-5 ">
+                      <CardBody className="space-y-5">
                         <Image
                           src={item.pImg}
                           width={200}

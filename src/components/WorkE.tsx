@@ -7,7 +7,7 @@ const WorkE = () => {
           id="worke">
           <div className="flex items-center gap-2 justify-center pb-10">
             <div className="w-5 h-0.5 bg-blue-600 dark:bg-green-500"></div>
-            <p className="text-2xl text-blue-600 font-bold dark:text-green-500">
+            <p className="text-2xl text-blue-600 font-bold dark:text-green-500 py-8 lg:py-0">
               Work Experience
             </p>
           </div>

@@ -58,9 +58,9 @@ const Navbar = () => {
               Ghosh
             </span>
           </div>
-          <div className="ms-auto flex lg:gap-2 items-center">
+          <div className="ms-auto flex lg:gap-2 items-center mr-2">
             <p className="md:text-xl text-gray-900 dark:bg-gradient-to-tr from-gray-400 to-gray-100 dark:bg-clip-text w-fit dark:text-transparent font-semibold">
-              Web Developer
+              Full Stack Web Developer
             </p>
             <div className="lg:border-2 border-solid border-[#00800066]  h-fit rounded-full px-2 py-2">
               <SiNextdotjs size={25} />

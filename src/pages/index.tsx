@@ -1,6 +1,7 @@
 import Academic from "@/components/Academic";
 import Announcement from "@/components/Announcement";
 import Cards from "@/components/Cards";
+import Certificate from "@/components/Certificate";
 import Cms from "@/components/Cms";
 
 import Footer from "@/components/Footer";
@@ -26,6 +27,7 @@ const index = () => {
       <Cms />
       <FrontendSkills />
       <Academic />
+      <Certificate />
       <WorkE />
       <Hobbies />
       <Form />
