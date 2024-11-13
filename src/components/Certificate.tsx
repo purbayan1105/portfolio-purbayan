@@ -19,7 +19,10 @@ const Certificate = () => {
               width={300}
               className="h-[30rem] w-[25rem]"
             />
-            <Link href="/certifiactepdf.pdf" target="_blank" legacyBehavior>
+            <Link
+              href="https://citindia.online/office/wp-content/uploads/participants-database/uqjrva3purbayan_ghoshgaria_09.pdf"
+              target="_blank"
+              legacyBehavior>
               <a download>
                 <div className=" relative flex justify-center  items-center mt-8 mb-5 mx-5 lg:ml-14 md:w-52 hover:lg:scale-125 hover:scale-110 duration-400">
                   <div className="absolute inset-0 bg-gradient-to-r from-indigo-500 via-yellow-300 to-purple-400 blur-md rounded-lg animate-pulse"></div>
