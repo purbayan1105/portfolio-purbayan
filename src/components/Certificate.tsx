@@ -6,7 +6,7 @@ import { IoIosStar } from "react-icons/io";
 const Certificate = () => {
   return (
     <>
-      <div className="dark:bg-slate-900">
+      <div className="dark:bg-slate-900" id="certificate">
         <div className=" poppins text-white font-semibold text-4xl flex justify-center py-9 px-5 text-center">
           Certified Frontend Developer
         </div>

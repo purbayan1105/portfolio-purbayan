@@ -67,7 +67,7 @@ const Navbar = () => {
             </div>
           </div>
         </div>
-        <div className="hidden md:col-span-2 lg:grid grid-cols-5 text-md font-normal mx-auto gap-8">
+        <div className="hidden md:col-span-2 lg:grid grid-cols-6 text-md font-normal mx-auto gap-8">
           <div className="cursor-pointer font-semibold">
             <Link
               to="hero"
@@ -99,6 +99,17 @@ const Navbar = () => {
               duration={500}
               activeClass=" dark:text-green-300 text-green-500">
               Academics
+            </Link>
+          </div>
+          <div className="cursor-pointer font-semibold">
+            <Link
+              to="certificate"
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={500}
+              activeClass=" dark:text-green-300 text-green-500 ">
+              <p className="text-yellow-400 font-bold text-lg">Certificte</p>
             </Link>
           </div>
           <div className="cursor-pointer font-semibold">
@@ -186,6 +197,22 @@ const Navbar = () => {
             className="cursor-pointer hover:bg-gray-300 hover:py-2 hover:rounded-md  hover:px-2">
             <div className="cursor-pointer hover:bg-gray-300 hover:py-2 hover:rounded-md  hover:px-2">
               <p className="py-2">Academic</p>
+            </div>
+          </Link>
+          <Link
+            onClick={() => {
+              setToggle(false);
+            }}
+            to="certificate"
+            spy={true}
+            smooth={true}
+            offset={-70}
+            duration={500}
+            className="cursor-pointer hover:bg-gray-300 hover:py-2 hover:rounded-md  hover:px-2">
+            <div className="cursor-pointer hover:bg-gray-300 hover:py-2 hover:rounded-md  hover:px-2">
+              <p className="py-2 font-bold dark:text-yellow-400 text-yellow-800">
+                Certificate
+              </p>
             </div>
           </Link>
           <Link
