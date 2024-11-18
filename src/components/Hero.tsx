@@ -69,8 +69,8 @@ const Hero = () => {
             while delivering high-quality solutions.
           </div>
 
-          <Link href="/pgcv.pdf" target="_blank" legacyBehavior>
-            <a download>
+          <Link href="/pgcv5.pdf" legacyBehavior>
+            <a download target="_blank">
               <div className=" relative flex justify-center items-center mt-8 mb-5 mx-5 md:w-52 hover:lg:scale-125 hover:scale-110 duration-400">
                 <div className="absolute inset-0 bg-gradient-to-r from-indigo-500 via-yellow-300 to-purple-400 blur-md rounded-lg animate-pulse"></div>
                 <button className="flex justify-center items-center gap-2 px-3 relative bg-blue-200 dark:bg-gray-800 w-full rounded-2xl py-3 ">
