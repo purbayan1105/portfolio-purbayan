@@ -64,3 +64,50 @@
 .dropdownAnimation {
   animation: dropdownMenu 0.5s forwards ease-in;
 }
+
+.animate-leftbox {
+  animation: fadeleftin forwards 1.5s ease-in;
+}
+
+@keyframes fadeleftin {
+  0% {
+    opacity: 0;
+    transform: translateX(-50px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0px);
+  }
+}
+
+.animate-right1box {
+  animation: fadetopin forwards 1.1s ease-in;
+  animation-delay: 300ms;
+}
+
+@keyframes fadetopin {
+  0% {
+    opacity: 0;
+    transform: translateY(-50px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
+
+.animate-right2box {
+  animation: fadebottomin forwards 1.1s ease-in;
+  animation-delay: 600ms;
+}
+
+@keyframes fadebottomin {
+  0% {
+    opacity: 0;
+    transform: translateY(50px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
