@@ -12,30 +12,30 @@ const Academic = () => {
     setHovered(true);
   };
 
-  const leftboxRef = useRef(null);
-  const right1boxRef = useRef(null);
-  const right2boxRef = useRef(null);
+  const leftboxRef = useRef<HTMLDivElement | null>(null);
+  const right1boxRef = useRef<HTMLDivElement | null>(null);
+  const right2boxRef = useRef<HTMLDivElement | null>(null);
 
   useEffect(() => {
     const obserbver = new IntersectionObserver((erntries) => {
       erntries.forEach((entry) => {
         if (entry.isIntersecting) {
-          if (entry.target === (leftboxRef.current as any)) {
+          if (entry.target === leftboxRef.current) {
             entry.target.classList.add("animate-leftbox");
           }
-          if (entry.target === (right1boxRef.current as any)) {
+          if (entry.target === right1boxRef.current) {
             entry.target.classList.add("animate-right1box");
           }
 
-          if (entry.target === (right2boxRef.current as any)) {
+          if (entry.target === right2boxRef.current) {
             entry.target.classList.add("animate-right2box");
           }
         } else {
-          if (entry.target === (leftboxRef.current as any)) {
+          if (entry.target === leftboxRef.current) {
             entry.target.classList.remove("animate-leftbox");
-          } else if (entry.target === (right1boxRef.current as any)) {
+          } else if (entry.target === right1boxRef.current) {
             entry.target.classList.remove("animate-right1box");
-          } else if (entry.target === (right2boxRef.current as any)) {
+          } else if (entry.target === right2boxRef.current) {
             entry.target.classList.remove("animate-right2box");
           }
         }
